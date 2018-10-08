@@ -8,8 +8,8 @@ class Routing extends Component {
         return (
             <BrowserRouter>
               <div>
-                <NavLink exact to="/"> Accueil </NavLink>
-                <NavLink to="/page-de-contact"> Contact </NavLink>
+                <NavLink exact to="/"> Home </NavLink>
+                <NavLink to="/page-de-contact"> History </NavLink>
 
                 <Switch>
                   <Route exact path="/" component={Home} />
